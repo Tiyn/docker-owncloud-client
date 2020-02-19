@@ -1,5 +1,5 @@
 #!/bin/bash
 
-owncloudcmd --user $USER --password $PASSWORD /data $URL
 
-while true; do sleep 1000; done
+
+while true; do owncloudcmd --user $USER --password $PASSWORD /data $URL && sleep 1500; done

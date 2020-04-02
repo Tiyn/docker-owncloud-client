@@ -15,8 +15,5 @@ Set the following volumes with the -v tag.
 | ----------- | --------------- | ----------------------------------- |
 | data		    | /data			      | directory for the owncloud contents |
 
-## Ports
-There are no ports that get opened up.
-
 ## Example run-command
 ``` docker run --name owncloudcli -v owncloudcli:/data --restart unless-stopped -e USER=admin1 -e PASSWORD=password1 -e URL='example.com' -d tiynger/owncloudclient ```
